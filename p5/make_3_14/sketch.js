@@ -10,5 +10,7 @@ function draw() {
   ellipse(228, -16, 200, 200); // medium gray circle
   fill(102);  //dark gray
   ellipse(268, 118, 200, 200);  // dark gray circle
+  fill(247); // light gray
+  ellipse(400, 100, 200, 200);
 
 }
