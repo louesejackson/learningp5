@@ -11,5 +11,5 @@ function draw() {
   noStroke();   //turn off stroke
   ellipse(268, 118, 200, 200); // doesn't draw
 
-
+// in this case the two circles disappear, but the first circle remains
 }
