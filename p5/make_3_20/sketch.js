@@ -21,4 +21,18 @@ function draw() {
   ellipse(155, 60, 8, 8);
 
   //Right creature
+  fill(150);
+  beginShape();
+  vertex(370, 120);
+  vertex(360, 90);
+  vertex(290, 80);
+  vertex(340, 70);
+  vertex(280, 50);
+  vertex(420, 10);
+  vertex(390, 50);
+  vertex(410, 90);
+  vertex(460, 120);
+  endShape();
+  fill(0);
+  ellipse(345, 50, 10, 10);
 }
