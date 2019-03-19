@@ -1,19 +1,19 @@
 
+var x = 25;
+var h = 20;
+var y = 25;
 
 
 function setup() {
   createCanvas(480, 120);
-  strokeWeight(8);
 }
 
 function draw() {
   background(204);
-  line(20, 40, 80, 80);
-  line(80, 40, 140, 80);
-  line(140, 40, 200, 80);
-  line(200, 40, 260, 80);
-  line(260, 40, 320, 80);
-  line(320, 40, 380, 80);
-  line(380, 40, 440, 80);
-
+  x = 20;
+  rect(x, y, 300, h); //top
+  x = x + 100;
+  rect(x, y + h, 300, h); // middle
+  x = x - 250;
+  rect(x, y +h*2, 300, h); //bottom
 }
