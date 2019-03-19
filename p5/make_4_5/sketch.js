@@ -1,6 +1,4 @@
 
-
-
 function setup() {
   createCanvas(480, 120);
   strokeWeight(8);
@@ -15,5 +13,4 @@ function draw() {
   line(260, 40, 320, 80);
   line(320, 40, 380, 80);
   line(380, 40, 440, 80);
-
 }
